@@ -1,5 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options as ChromeOptions
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
@@ -28,7 +30,10 @@ options.add_experimental_option("prefs", {
     "profile.default_content_setting_values.geolocation": 2,  # 위치 권한 차단
     "profile.default_content_setting_values.notifications": 2  # 알림 차단
 })
-browser = webdriver.Chrome(options=options)
+
+# webdriver_manager를 사용하여 ChromeDriver 자동 설치
+service = Service(ChromeDriverManager().install())
+browser = webdriver.Chrome(service=service, options=options)
 browser.get("https://www.starbucks.co.kr/store/store_map.do?disp=locale")
 
 # 웹드라이버 설정(로컬)
