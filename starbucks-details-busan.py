@@ -14,8 +14,8 @@ import json
 # 현재 날짜를 문자열로 저장
 current_date = datetime.now().strftime("%Y-%m-%d")
 
-region = "jeju"
-region_kor = "제주"
+region = "busan"
+region_kor = "부산"
 
 # details 폴더 생성
 base_folder_path = os.path.join("details", region)
@@ -49,9 +49,9 @@ browser.get("https://www.starbucks.co.kr/store/store_map.do?disp=locale")
 browser.find_element(By.CSS_SELECTOR, "#container > div > form > fieldset > div > section > article.find_store_cont > article > header.loca_search > h3 > a").click()
 time.sleep(3)
 print("지역검색 버튼을 클릭했습니다.")
-browser.find_element(By.CSS_SELECTOR, ".loca_step1_cont .sido_arae_box li:nth-child(16)").click()
+browser.find_element(By.CSS_SELECTOR, ".loca_step1_cont .sido_arae_box li:nth-child(6)").click()
 time.sleep(3) 
-print("제주 버튼을 클릭했습니다.")
+print("부산 버튼을 클릭했습니다.")
 browser.find_element(By.CSS_SELECTOR, "#mCSB_2_container > ul > li:nth-child(1) > a").click()
 time.sleep(3) 
 print("전체선택 버튼을 클릭했습니다.")
