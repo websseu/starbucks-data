@@ -31,18 +31,47 @@ jobs:
           python -m pip install --upgrade pip
           pip install beautifulsoup4 lxml selenium webdriver_manager
 
-      # 5. 스크립트 실행
+      # 5. 제주 스크립트 실행
       - name: Run Starbucks Jeju Details Script
         run: |
           python starbucks-details-jeju.py
 
-      # 6. 생성된 데이터 파일 커밋
-      - name: Commit changes
+      # 5-1. 제주 데이터 커밋
+      - name: Commit Jeju changes
         run: |
           git config --global user.email "webstoryboy@naver.com"
           git config --global user.name "websseu"
-          git add details/ || echo "No files to add"
-          git commit -m "스타벅스 제주 상세 데이터 업데이트 - $(date +"%Y-%m-%d")" || echo "No changes to commit"
+          git add details/jeju/ || echo "No files to add"
+          git add starbucks-details-jeju.py || echo "No files to add"
+          git commit -m "스타벅스 제주 데이터 업데이트 - $(date +\"%Y-%m-%d\")" || echo "No changes to commit"
+
+      # 5-2. 부산 스크립트 실행
+      - name: Run Starbucks Busan Details Script
+        run: |
+          python starbucks-details-busan.py
+
+      # 5-2-1. 부산 데이터 커밋
+      - name: Commit Busan changes
+        run: |
+          git config --global user.email "webstoryboy@naver.com"
+          git config --global user.name "websseu"
+          git add details/busan/ || echo "No files to add"
+          git add starbucks-details-busan.py || echo "No files to add"
+          git commit -m "스타벅스 부산 데이터 업데이트 - $(date +\"%Y-%m-%d\")" || echo "No changes to commit"
+
+      # 5-3. 전체 매장 카운트 스크립트 실행
+      - name: Run Starbucks Count Script
+        run: |
+          python starbucks-count.py
+
+      # 5-3-1. 카운트 데이터 커밋
+      - name: Commit Count changes
+        run: |
+          git config --global user.email "webstoryboy@naver.com"
+          git config --global user.name "websseu"
+          git add index/ || echo "No files to add"
+          git add starbucks-count.py || echo "No files to add"
+          git commit -m "스타벅스 카운트 데이터 업데이트 - $(date +\"%Y-%m-%d\")" || echo "No changes to commit"
 
       # 7. 변경사항 푸시
       - name: Push changes

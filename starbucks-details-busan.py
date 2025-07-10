@@ -22,28 +22,28 @@ base_folder_path = os.path.join("details", region)
 os.makedirs(base_folder_path, exist_ok=True)
 
 # 웹드라이버 설정 및 페이지 로드
-options = ChromeOptions()
-options.add_argument("--headless")
-options.add_argument("--no-sandbox")
-options.add_argument("--disable-dev-shm-usage") 
-options.add_argument("--disable-gpu")
-options.add_argument("--disable-infobars")
-options.add_argument("--disable-notifications")
-options.add_experimental_option("prefs", {
-    "profile.default_content_setting_values.geolocation": 2,  # 위치 권한 차단
-    "profile.default_content_setting_values.notifications": 2  # 알림 차단
-})
+# options = ChromeOptions()
+# options.add_argument("--headless")
+# options.add_argument("--no-sandbox")
+# options.add_argument("--disable-dev-shm-usage") 
+# options.add_argument("--disable-gpu")
+# options.add_argument("--disable-infobars")
+# options.add_argument("--disable-notifications")
+# options.add_experimental_option("prefs", {
+#     "profile.default_content_setting_values.geolocation": 2,  # 위치 권한 차단
+#     "profile.default_content_setting_values.notifications": 2  # 알림 차단
+# })
 
 # webdriver_manager를 사용하여 ChromeDriver 자동 설치
-service = Service(ChromeDriverManager().install())
-browser = webdriver.Chrome(service=service, options=options)
-browser.get("https://www.starbucks.co.kr/store/store_map.do?disp=locale")
+# service = Service(ChromeDriverManager().install())
+# browser = webdriver.Chrome(service=service, options=options)
+# browser.get("https://www.starbucks.co.kr/store/store_map.do?disp=locale")
 
 # 웹드라이버 설정(로컬)
-# browser = webdriver.Chrome()
-# wait = WebDriverWait(browser, 10)
-# browser.get("https://www.starbucks.co.kr/store/store_map.do")
-# time.sleep(10)
+browser = webdriver.Chrome()
+wait = WebDriverWait(browser, 10)
+browser.get("https://www.starbucks.co.kr/store/store_map.do")
+time.sleep(10)
 
 # 클릭 및 이동
 browser.find_element(By.CSS_SELECTOR, "#container > div > form > fieldset > div > section > article.find_store_cont > article > header.loca_search > h3 > a").click()
