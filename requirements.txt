@@ -3,3 +3,21 @@ webdriver-manager==4.0.1
 pandas==2.1.3
 requests==2.31.0
 beautifulsoup4==4.12.2 
+
+"서울": "seoul",
+"경기": "gyeonggi",
+"광주": "gwangju",
+"대구": "daegu",
+"대전": "daejeon",
+"부산": "busan",
+"울산": "ulsan",
+"인천": "incheon",
+"강원": "gangwon",
+"경남": "gyeongnam",
+"경북": "gyeongbuk",
+"전남": "jeolnam",
+"전북": "jeolbuk",
+"충남": "chungnam",
+"충북": "chungbuk",
+"제주": "jeju",
+"세종": "sejong",

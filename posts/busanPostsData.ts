@@ -1,8 +1,8 @@
 export const busanPostsData = [
   {
     title: '금정남산동DT',
-    slug: '금정남산동DT',
-    category: '국내',
+    slug: 'busan-01',
+    category: '부산',
     description:
       '금정산의 기운이 흐르는 남산동의 새로운 명소에서 커피한잔의 힐링을 느껴보세요!',
     numViews: 0,
@@ -12,8 +12,8 @@ export const busanPostsData = [
   },
   {
     title: '금정구청DT',
-    slug: '금정구청DT',
-    category: '국내',
+    slug: 'busan-02',
+    category: '부산',
     description:
       '도심속  커피한잔의 여유를  즐길수 있는 금정구청DT점입니다.',
     numViews: 0,
@@ -23,8 +23,8 @@ export const busanPostsData = [
   },
   {
     title: '온천장역DT',
-    slug: '온천장역DT',
-    category: '국내',
+    slug: 'busan-03',
+    category: '부산',
     description:
       '금정산의 정기를 느끼며 활기찬 Drive Thru와 아늑한 Cafe가 공존하는 스타벅스 온천장역DT점 입니다.',
     numViews: 0,
@@ -34,8 +34,8 @@ export const busanPostsData = [
   },
   {
     title: '부산대정문',
-    slug: '부산대정문',
-    category: '국내',
+    slug: 'busan-04',
+    category: '부산',
     description:
       '커피향과 같은 캠퍼스의 낭만을 부산대정문점과 함께 느껴보세요.',
     numViews: 0,
@@ -45,8 +45,8 @@ export const busanPostsData = [
   },
   {
     title: '부산대역',
-    slug: '부산대역',
-    category: '국내',
+    slug: 'busan-05',
+    category: '부산',
     description:
       '여유와 활기가 공존하는 부산대역점입니다. 유니크한 복층 구조와 아름다운 정원속에서 편안한 휴식을 만끽하세요.',
     numViews: 0,
@@ -56,8 +56,8 @@ export const busanPostsData = [
   },
   {
     title: '금정이마트',
-    slug: '금정이마트',
-    category: '국내',
+    slug: 'busan-06',
+    category: '부산',
     description:
       '쇼핑과 휴식을 한번에 즐길 수 있는 고객과의 친밀한 장소, 금정이마트점입니다.',
     numViews: 0,
@@ -67,8 +67,8 @@ export const busanPostsData = [
   },
   {
     title: '금정구서',
-    slug: '금정구서',
-    category: '국내',
+    slug: 'busan-07',
+    category: '부산',
     description:
       '도심 속의 편안하고 달콤한 커피한잔의 휴식을 즐길 수 있는 스타벅스 금정구서점 입니다.',
     numViews: 0,
@@ -78,8 +78,8 @@ export const busanPostsData = [
   },
   {
     title: '부산서동',
-    slug: '부산서동',
-    category: '국내',
+    slug: 'busan-08',
+    category: '부산',
     description:
       '4호선 서동역 근처에 위치한  커피향기 가득한 스타벅스 부산서동점 입니다.',
     numViews: 0,
@@ -89,8 +89,8 @@ export const busanPostsData = [
   },
   {
     title: '용호동W스퀘어',
-    slug: '용호동W스퀘어',
-    category: '국내',
+    slug: 'busan-09',
+    category: '부산',
     description:
       'W스퀘어 상가 쇼핑 과 광안대교를 바라보며 편안한 휴식과 커피 한 잔의 여유를 느껴보세요',
     numViews: 0,
@@ -100,8 +100,8 @@ export const busanPostsData = [
   },
   {
     title: '동명대DT',
-    slug: '동명대DT',
-    category: '국내',
+    slug: 'busan-10',
+    category: '부산',
     description:
       '아늑한 커피하우스와 스타벅스 디지털 경험 및 Drive Thru를 함께 즐기세요',
     numViews: 0,
@@ -111,8 +111,8 @@ export const busanPostsData = [
   },
   {
     title: 'BIFC Mall',
-    slug: 'BIFC Mall',
-    category: '국내',
+    slug: 'busan-11',
+    category: '부산',
     description:
       '바쁜 일상 속 향기로운 커피 한잔의 여유가 있는 부산국제금융센터의 랜드마크 BIFC Mall점 입니다.',
     numViews: 0,
@@ -122,8 +122,8 @@ export const busanPostsData = [
   },
   {
     title: '부산대연역',
-    slug: '부산대연역',
-    category: '국내',
+    slug: 'busan-12',
+    category: '부산',
     description:
       '일상의 피로를 풀어 줄 커피 한잔의 여유, 부산대연역점에서는 최상의 음료와 최고의 서비스로 여러분을 기다립니다.',
     numViews: 0,
@@ -133,8 +133,8 @@ export const busanPostsData = [
   },
   {
     title: '경성대',
-    slug: '경성대',
-    category: '국내',
+    slug: 'busan-13',
+    category: '부산',
     description:
       '새롭게 단장한 젊음의 열기와 싱그러움으로 가득한 경성대에서 즐거운 추억을 만드세요.',
     numViews: 0,
@@ -144,8 +144,8 @@ export const busanPostsData = [
   },
   {
     title: '문현이마트',
-    slug: '문현이마트',
-    category: '국내',
+    slug: 'busan-14',
+    category: '부산',
     description:
       '쇼핑과 편안한 휴식을 함께 즐길 수 있는 스타벅스 문현이마트점 입니다.',
     numViews: 0,
@@ -155,8 +155,8 @@ export const busanPostsData = [
   },
   {
     title: '부산유엔공원',
-    slug: '부산유엔공원',
-    category: '국내',
+    slug: 'busan-15',
+    category: '부산',
     description:
       '부산 유엔공원의 싱그러움과 푸르름이 어우러지는 힐링 스팟, 스타벅스 부산유엔공원점에서 커피와 함께 계절의 아름다움을 만끽하세요.',
     numViews: 0,
@@ -166,8 +166,8 @@ export const busanPostsData = [
   },
   {
     title: '용호빌리브',
-    slug: '용호빌리브',
-    category: '국내',
+    slug: 'busan-16',
+    category: '부산',
     description:
       '용호빌리브점에서 일상의 휴식과 즐거움을 느껴보세요.',
     numViews: 0,
@@ -177,8 +177,8 @@ export const busanPostsData = [
   },
   {
     title: '부산대연못골',
-    slug: '부산대연못골',
-    category: '국내',
+    slug: 'busan-17',
+    category: '부산',
     description:
       '커피 한잔의 여유와 편안한 휴식을 즐길 수 있는 스타벅스 부산대연못골점입니다.',
     numViews: 0,
@@ -188,8 +188,8 @@ export const busanPostsData = [
   },
   {
     title: '부산역라마다',
-    slug: '부산역라마다',
-    category: '국내',
+    slug: 'busan-18',
+    category: '부산',
     description:
       '설레임과 아쉬움이 함께하는 이곳에서 한잔의 커피로 특별한 추억을 만들어 보세요',
     numViews: 0,
@@ -199,8 +199,8 @@ export const busanPostsData = [
   },
   {
     title: '부산역아스티',
-    slug: '부산역아스티',
-    category: '국내',
+    slug: 'busan-19',
+    category: '부산',
     description:
       '설레는  부산여행과 일상의 안락함이 함께 공존하는 부산역아스티점에서 특별한 경험을 만들어 보세요',
     numViews: 0,
@@ -210,8 +210,8 @@ export const busanPostsData = [
   },
   {
     title: '부산역',
-    slug: '부산역',
-    category: '국내',
+    slug: 'busan-20',
+    category: '부산',
     description:
       '바쁜일상에서 달콤한 커피 한잔으로 힐링할수 있는  스타벅스 부산역점입니다.',
     numViews: 0,
@@ -221,8 +221,8 @@ export const busanPostsData = [
   },
   {
     title: '범일동일타워',
-    slug: '범일동일타워',
-    category: '국내',
+    slug: 'busan-21',
+    category: '부산',
     description:
       '전통시장과 다양한 공연, 문화가 함께 어우러진 범일동일타워점 입니다.',
     numViews: 0,
@@ -232,8 +232,8 @@ export const busanPostsData = [
   },
   {
     title: '부산초량역',
-    slug: '부산초량역',
-    category: '국내',
+    slug: 'busan-22',
+    category: '부산',
     description:
       '커피 한잔의 여유와 편안한 휴식을 즐길 수 있는 스타벅스 부산초량역점입니다',
     numViews: 0,
@@ -243,8 +243,8 @@ export const busanPostsData = [
   },
   {
     title: '서면중앙대로R',
-    slug: '서면중앙대로R',
-    category: '국내',
+    slug: 'busan-23',
+    category: '부산',
     description:
       '진한 바디감, 나이트로 커피 정통의 캐스케이딩, 부드러운 콜드 크레마를 느낄 수 있는 리저브 나이트로를 만나보세요!',
     numViews: 0,
@@ -254,8 +254,8 @@ export const busanPostsData = [
   },
   {
     title: '서면로R',
-    slug: '서면로R',
-    category: '국내',
+    slug: 'busan-24',
+    category: '부산',
     description:
       '진한 바디감, 나이트로 커피 정통의 캐스케이딩, 부드러운 콜드 크레마를 느낄 수 있는 리저브 나이트로를 만나보세요!',
     numViews: 0,
@@ -265,8 +265,8 @@ export const busanPostsData = [
   },
   {
     title: '양정역',
-    slug: '양정역',
-    category: '국내',
+    slug: 'busan-25',
+    category: '부산',
     description:
       '대학가의 젊음과 공원의 정취를 함께 느낄 수 있는 양정역점입니다.',
     numViews: 0,
@@ -276,8 +276,8 @@ export const busanPostsData = [
   },
   {
     title: '동의대역',
-    slug: '동의대역',
-    category: '국내',
+    slug: 'busan-26',
+    category: '부산',
     description:
       '도심속 커피한잔의 여유와 편안한 휴식을 제공해드립니다. 안녕하세요. 스타벅스 동의대역점입니다!',
     numViews: 0,
@@ -287,8 +287,8 @@ export const busanPostsData = [
   },
   {
     title: '부산개금역',
-    slug: '부산개금역',
-    category: '국내',
+    slug: 'busan-27',
+    category: '부산',
     description:
       '높은 천장과 따스한 햇살이 전면유리창에 비춰 더욱 포근함을 느낄 수 있는 부산개금역점에서 여유로운 커피 한잔을 즐겨보세요.',
     numViews: 0,
@@ -298,8 +298,8 @@ export const busanPostsData = [
   },
   {
     title: '서면전포역',
-    slug: '서면전포역',
-    category: '국내',
+    slug: 'busan-28',
+    category: '부산',
     description:
       '전포카페거리의 새로운 명소 서면 전포역점에서 향기로운 커피와 함께 아늑함을 느껴보세요.',
     numViews: 0,
@@ -309,8 +309,8 @@ export const busanPostsData = [
   },
   {
     title: '부산서면중앙로',
-    slug: '부산서면중앙로',
-    category: '국내',
+    slug: 'busan-29',
+    category: '부산',
     description:
       '화려한 외관에 버금가는 최상의 커피와 파트너들의 따뜻한 미소로 삶의 행복과 즐거움을 느낄 수 있는 부산서면중앙로점입니다.',
     numViews: 0,
@@ -320,8 +320,8 @@ export const busanPostsData = [
   },
   {
     title: '서면서전로',
-    slug: '서면서전로',
-    category: '국내',
+    slug: 'busan-30',
+    category: '부산',
     description:
       '서면 도심 속 새로운 휴식처 서면서전로점에서 커피와 함께 감동을 느껴보세요.',
     numViews: 0,
@@ -331,8 +331,8 @@ export const busanPostsData = [
   },
   {
     title: '부산서면',
-    slug: '부산서면',
-    category: '국내',
+    slug: 'busan-31',
+    category: '부산',
     description:
       '서면 젊음의 거리의 싱그러움과 커피향의 조화가 가장 아름다운 바로 그곳 부산서면점입니다.',
     numViews: 0,
@@ -342,8 +342,8 @@ export const busanPostsData = [
   },
   {
     title: '서면역',
-    slug: '서면역',
-    category: '국내',
+    slug: 'busan-32',
+    category: '부산',
     description:
       '파트너들의 따뜻함이 있는 서면역점입니다.',
     numViews: 0,
@@ -353,8 +353,8 @@ export const busanPostsData = [
   },
   {
     title: '부전역',
-    slug: '부전역',
-    category: '국내',
+    slug: 'busan-33',
+    category: '부산',
     description:
       '다양한 품목의 부산전통시장 ,안락함이 있는 쉼터, 부전역점입니다.',
     numViews: 0,
@@ -364,8 +364,8 @@ export const busanPostsData = [
   },
   {
     title: '서면센트럴스퀘어',
-    slug: '서면센트럴스퀘어',
-    category: '국내',
+    slug: 'busan-34',
+    category: '부산',
     description:
       '서면교보문고 뒷쪽에 위치하여 책과 함께 하는 시간에 풍부한 커피를 즐기세요.',
     numViews: 0,
@@ -375,8 +375,8 @@ export const busanPostsData = [
   },
   {
     title: '서면메디컬거리',
-    slug: '서면메디컬거리',
-    category: '국내',
+    slug: 'busan-35',
+    category: '부산',
     description:
       '서면메디컬거리에 단 하나뿐인 매장에서 최고의 스타벅스 경험을 선사합니다.',
     numViews: 0,
@@ -386,8 +386,8 @@ export const busanPostsData = [
   },
   {
     title: '서면중앙',
-    slug: '서면중앙',
-    category: '국내',
+    slug: 'busan-36',
+    category: '부산',
     description:
       '풍부한 사이렌오더로 직장인들께 딱 맞는 서비스와 바쁜일상속 휴식처가 되어 드리겠습니다.',
     numViews: 0,
@@ -397,8 +397,8 @@ export const busanPostsData = [
   },
   {
     title: '서면트레이더스',
-    slug: '서면트레이더스',
-    category: '국내',
+    slug: 'busan-37',
+    category: '부산',
     description:
       '부산진구의 중심 부산시민공원의 산책에 커피와 함께 하는 풍요로움을 즐기세요.',
     numViews: 0,
@@ -408,8 +408,8 @@ export const busanPostsData = [
   },
   {
     title: '초읍대공원',
-    slug: '초읍대공원',
-    category: '국내',
+    slug: 'busan-38',
+    category: '부산',
     description:
       '향기로운 커피와 푸르름이 어우러지는 힐링스팟 스타벅스 초읍대공원점에서 감동을 느껴보세요.',
     numViews: 0,
@@ -419,8 +419,8 @@ export const busanPostsData = [
   },
   {
     title: '서면엠디엠타워',
-    slug: '서면엠디엠타워',
-    category: '국내',
+    slug: 'busan-39',
+    category: '부산',
     description:
       '번잡한 도심, 직장인들의 바쁜 일상 속에 마음의 쉼터가 되는 서면엠디엠타워점에서 커피 한잔의 여유로움을 느끼세요.',
     numViews: 0,
@@ -430,8 +430,8 @@ export const busanPostsData = [
   },
   {
     title: '서면문화로',
-    slug: '서면문화로',
-    category: '국내',
+    slug: 'busan-40',
+    category: '부산',
     description:
       '부산의 중심 서면에서 새로운 스타벅스를 만나보세요. 커피한잔의 여유와 힐링이 되어 드리겠습니다.',
     numViews: 0,
@@ -441,8 +441,8 @@ export const busanPostsData = [
   },
   {
     title: '부산덕천역',
-    slug: '부산덕천역',
-    category: '국내',
+    slug: 'busan-41',
+    category: '부산',
     description:
       '부산북구상권의 핫플레이스!! 덕천역점, 스타벅스에서 젊음의 열기와 새로운 추억을 만들어보세요!!',
     numViews: 0,
@@ -452,8 +452,8 @@ export const busanPostsData = [
   },
   {
     title: '부산화명역',
-    slug: '부산화명역',
-    category: '국내',
+    slug: 'busan-42',
+    category: '부산',
     description:
       '바쁜 일상 속 커피 한 잔의 여유를 즐길 수 있는 스타벅스 부산화명역점입니다.',
     numViews: 0,
@@ -463,8 +463,8 @@ export const busanPostsData = [
   },
   {
     title: '화명강변DT',
-    slug: '화명강변DT',
-    category: '국내',
+    slug: 'busan-43',
+    category: '부산',
     description:
       '낙동강의 아름다운 강변 view와 드라이브  스루의 편리함을 즐길수 있는 스타벅스 화명강변DT 점입니다.',
     numViews: 0,
@@ -474,8 +474,8 @@ export const busanPostsData = [
   },
   {
     title: '부산구남역DT',
-    slug: '부산구남역DT',
-    category: '국내',
+    slug: 'busan-44',
+    category: '부산',
     description:
       '도심 속 Drive Thru의 편리함과 여유로운 일상을 즐길 수 있는 스타벅스 부산구남역DT점 입니다.',
     numViews: 0,
@@ -485,8 +485,8 @@ export const busanPostsData = [
   },
   {
     title: '부산만덕DT',
-    slug: '부산만덕DT',
-    category: '국내',
+    slug: 'busan-45',
+    category: '부산',
     description:
       '여행 전 필수코스~ 드라이브 스루의 편리함과 소소한 행복을 느낄수 있는 부산만덕DT점 입니다.',
     numViews: 0,
@@ -496,8 +496,8 @@ export const busanPostsData = [
   },
   {
     title: '사상주례DT',
-    slug: '사상주례DT',
-    category: '국내',
+    slug: 'busan-46',
+    category: '부산',
     description:
       '향긋한 커피한잔의 여유와 바쁜생활 속, 빠르고 편리한 서비스로 일상의 쉼표가 되어 드릴 사상주례DT점 입니다.',
     numViews: 0,
@@ -507,8 +507,8 @@ export const busanPostsData = [
   },
   {
     title: '동서대DT',
-    slug: '동서대DT',
-    category: '국내',
+    slug: 'busan-47',
+    category: '부산',
     description:
       '바쁜일상속 차량안에서 커피한잔의 소소한 여유를 즐길수 있는 동서대DT점입니다.',
     numViews: 0,
@@ -518,8 +518,8 @@ export const busanPostsData = [
   },
   {
     title: '부산사상로',
-    slug: '부산사상로',
-    category: '국내',
+    slug: 'busan-48',
+    category: '부산',
     description:
       '일상속 즐거운 공간 부산사상로점 입니다.',
     numViews: 0,
@@ -529,8 +529,8 @@ export const busanPostsData = [
   },
   {
     title: '삼락강변DT',
-    slug: '삼락강변DT',
-    category: '국내',
+    slug: 'busan-49',
+    category: '부산',
     description:
       '강변의 푸르름과 향긋한 커피가 함께 하는 삼락강변DT점 입니다.',
     numViews: 0,
@@ -540,8 +540,8 @@ export const busanPostsData = [
   },
   {
     title: '사상엄궁DT',
-    slug: '사상엄궁DT',
-    category: '국내',
+    slug: 'busan-50',
+    category: '부산',
     description:
       '향긋한 커피한잔의 여유와 드라이브스루의 편리함이 함께하는 사상엄궁DT점 입니다.',
     numViews: 0,
@@ -551,8 +551,8 @@ export const busanPostsData = [
   },
   {
     title: '부산사상광장로',
-    slug: '부산사상광장로',
-    category: '국내',
+    slug: 'busan-51',
+    category: '부산',
     description:
       '바쁜 현대 사회 속에서 향긋한 커피 한 잔의 여유로움을 즐기세요.',
     numViews: 0,
@@ -562,8 +562,8 @@ export const busanPostsData = [
   },
   {
     title: '사상이마트',
-    slug: '사상이마트',
-    category: '국내',
+    slug: 'busan-52',
+    category: '부산',
     description:
       '쇼핑과 편안한 휴식을 함께 즐길 수 있는 공간, 사상이마트점 입니다.',
     numViews: 0,
@@ -573,8 +573,8 @@ export const busanPostsData = [
   },
   {
     title: '사상역',
-    slug: '사상역',
-    category: '국내',
+    slug: 'busan-53',
+    category: '부산',
     description:
       '쇼핑, 영화와 함께 커피 한잔의 여유를 즐길 수 있는 향기로움이 묻어나는 제 3의 공간',
     numViews: 0,
@@ -584,8 +584,8 @@ export const busanPostsData = [
   },
   {
     title: '다대포비치',
-    slug: '다대포비치',
-    category: '국내',
+    slug: 'busan-54',
+    category: '부산',
     description:
       '바쁜일상속의 스트레스를 녹일수 있는 아늑한 커피',
     numViews: 0,
@@ -595,8 +595,8 @@ export const busanPostsData = [
   },
   {
     title: '다대포DT',
-    slug: '다대포DT',
-    category: '국내',
+    slug: 'busan-55',
+    category: '부산',
     description:
       '향기로운 커피와 스타벅스 Drive Thru를 함께 즐기세요',
     numViews: 0,
@@ -606,8 +606,8 @@ export const busanPostsData = [
   },
   {
     title: '을숙도강변DT',
-    slug: '을숙도강변DT',
-    category: '국내',
+    slug: 'busan-56',
+    category: '부산',
     description:
       '철새들의 쉼터, 을숙도강변DT점에서 향기로운 커피와 함께 아름다운 노을을 즐겨보세요.',
     numViews: 0,
@@ -617,8 +617,8 @@ export const busanPostsData = [
   },
   {
     title: '부산괴정역',
-    slug: '부산괴정역',
-    category: '국내',
+    slug: 'busan-57',
+    category: '부산',
     description:
       '한잔의 커피로 일상의 편안함과  휴식을 전하는 스타벅스 부산괴정역점 입니다.',
     numViews: 0,
@@ -628,8 +628,8 @@ export const busanPostsData = [
   },
   {
     title: '하단중앙',
-    slug: '하단중앙',
-    category: '국내',
+    slug: 'busan-58',
+    category: '부산',
     description:
       '제3의 공간에서 즐기는 커피 한잔의 여유, 하단중앙점에서 그 경험을 만끽하세요.',
     numViews: 0,
@@ -639,8 +639,8 @@ export const busanPostsData = [
   },
   {
     title: '하단역2번출구',
-    slug: '하단역2번출구',
-    category: '국내',
+    slug: 'busan-59',
+    category: '부산',
     description:
       '바쁜일상 속 힐링의 공간 스타벅스 하단역2번 출구 입니다.',
     numViews: 0,
@@ -650,8 +650,8 @@ export const busanPostsData = [
   },
   {
     title: '사하장림DT',
-    slug: '사하장림DT',
-    category: '국내',
+    slug: 'busan-60',
+    category: '부산',
     description:
       '도심속의 여유공간, 사하장림DT점에서 커피  한 잔의 여유를 즐기세요.',
     numViews: 0,
@@ -661,8 +661,8 @@ export const busanPostsData = [
   },
   {
     title: '부산교대역DT',
-    slug: '부산교대역DT',
-    category: '국내',
+    slug: 'busan-61',
+    category: '부산',
     description:
       '도심 속 신속하고 편리한 서비스로 커피 한 잔의 여유를 즐길 수 있는 부산교대역DT점입니다.',
     numViews: 0,
@@ -672,8 +672,8 @@ export const busanPostsData = [
   },
   {
     title: '연산시티타워',
-    slug: '연산시티타워',
-    category: '국내',
+    slug: 'busan-62',
+    category: '부산',
     description:
       '도심 속 아늑한 커피하우스 연산시티타워점 입니다.',
     numViews: 0,
@@ -683,8 +683,8 @@ export const busanPostsData = [
   },
   {
     title: '부산연산역',
-    slug: '부산연산역',
-    category: '국내',
+    slug: 'busan-63',
+    category: '부산',
     description:
       '편안하고 기분좋은 경험을 즐길수 있는 스타벅스 부산연산역점입니다.',
     numViews: 0,
@@ -694,8 +694,8 @@ export const busanPostsData = [
   },
   {
     title: '부산교대',
-    slug: '부산교대',
-    category: '국내',
+    slug: 'busan-64',
+    category: '부산',
     description:
       '부산교대 정문앞 캠퍼스의 낭만과 커피향을 느낄 수 있는 부산교대점입니다.',
     numViews: 0,
@@ -705,8 +705,8 @@ export const busanPostsData = [
   },
   {
     title: '연산트레이더스',
-    slug: '연산트레이더스',
-    category: '국내',
+    slug: 'busan-65',
+    category: '부산',
     description:
       '따뜻하고 편안한 휴식이 함께하는 공간 연산트레이더스점 입니다',
     numViews: 0,
@@ -716,8 +716,8 @@ export const busanPostsData = [
   },
   {
     title: '연산교차로',
-    slug: '연산교차로',
-    category: '국내',
+    slug: 'busan-66',
+    category: '부산',
     description:
       '바쁜 일상 속 향기로운 커피 한잔의 여유가 있는 연산교차로점 입니다.',
     numViews: 0,
@@ -727,8 +727,8 @@ export const busanPostsData = [
   },
   {
     title: '부산시청',
-    slug: '부산시청',
-    category: '국내',
+    slug: 'busan-67',
+    category: '부산',
     description:
       '도심속 안락한 쉼터, 커피 한잔의 여유를 즐길 수 있는 스타벅스 부산시청점입니다.',
     numViews: 0,
@@ -738,8 +738,8 @@ export const busanPostsData = [
   },
   {
     title: '연제이마트',
-    slug: '연제이마트',
-    category: '국내',
+    slug: 'busan-68',
+    category: '부산',
     description:
       '따뜻하고 편안한 휴식이 함께하는 공간 연제이마트점 입니다',
     numViews: 0,
@@ -749,8 +749,8 @@ export const busanPostsData = [
   },
   {
     title: '부산거제DT',
-    slug: '부산거제DT',
-    category: '국내',
+    slug: 'busan-69',
+    category: '부산',
     description:
       '도심 속 커피 한 잔의 여유를 즐길 수 있는 부산거제DT점입니다.',
     numViews: 0,
@@ -760,8 +760,8 @@ export const busanPostsData = [
   },
   {
     title: '영도청학DT',
-    slug: '영도청학DT',
-    category: '국내',
+    slug: 'busan-70',
+    category: '부산',
     description:
       '부산항대교와  파란 오션뷰를 즐기면서 휴식같은 커피한잔의 여유로움을 즐기세요',
     numViews: 0,
@@ -771,8 +771,8 @@ export const busanPostsData = [
   },
   {
     title: '영도대교',
-    slug: '영도대교',
-    category: '국내',
+    slug: 'busan-71',
+    category: '부산',
     description:
       '푸른 바다와 아름다운 부산항을 바라보면서  커피한잔과 함께 편안한 휴식을 즐겨보세요',
     numViews: 0,
@@ -782,8 +782,8 @@ export const busanPostsData = [
   },
   {
     title: '부산광복로',
-    slug: '부산광복로',
-    category: '국내',
+    slug: 'busan-72',
+    category: '부산',
     description:
       '광복로패션거리에서   편안하게  향긋한 커피한잔의 여유를  즐길수 있는 스타벅스 부산광복로점 입니다.',
     numViews: 0,
@@ -793,8 +793,8 @@ export const busanPostsData = [
   },
   {
     title: '자갈치역',
-    slug: '자갈치역',
-    category: '국내',
+    slug: 'busan-73',
+    category: '부산',
     description:
       '바다와 먹거리 정감을 느낄 수 있는 자갈치역점에서 특별한 경험을 만들어 보세요.',
     numViews: 0,
@@ -804,8 +804,8 @@ export const busanPostsData = [
   },
   {
     title: '국제시장',
-    slug: '국제시장',
-    category: '국내',
+    slug: 'busan-74',
+    category: '부산',
     description:
       '부산의 역사와 전통이 살아숨쉬는 국제시장점 입니다.',
     numViews: 0,
@@ -815,8 +815,8 @@ export const busanPostsData = [
   },
   {
     title: '부산중앙역',
-    slug: '부산중앙역',
-    category: '국내',
+    slug: 'busan-75',
+    category: '부산',
     description:
       '바쁜 도시 생활에서 한잔의 커피으로  삶의 안락함과 즐거움을 스타벅스 부산중앙역점에서 경험하세요',
     numViews: 0,
@@ -826,8 +826,8 @@ export const busanPostsData = [
   },
   {
     title: '남포동역',
-    slug: '남포동역',
-    category: '국내',
+    slug: 'busan-76',
+    category: '부산',
     description:
       '세련된 디자인으로 편안함을 추구하는, 바다향기가 물씬나는 남포동역점입니다.',
     numViews: 0,
@@ -837,8 +837,8 @@ export const busanPostsData = [
   },
   {
     title: '부산비프광장',
-    slug: '부산비프광장',
-    category: '국내',
+    slug: 'busan-77',
+    category: '부산',
     description:
       '남포동 극장가의 중심, 비프광장에서  옛 추억을 회상하며  커피한잔의  여유를 즐길수 있는 스타벅스 부산비프광장점 입니다.',
     numViews: 0,
@@ -848,8 +848,8 @@ export const busanPostsData = [
   },
   {
     title: '기장역DT',
-    slug: '기장역DT',
-    category: '국내',
+    slug: 'busan-78',
+    category: '부산',
     description:
       '기장군의 새로운 명소에서 커피한잔의 휴식과  디지털 경험을 누리세요',
     numViews: 0,
@@ -859,8 +859,8 @@ export const busanPostsData = [
   },
   {
     title: '동부산DT',
-    slug: '동부산DT',
-    category: '국내',
+    slug: 'busan-79',
+    category: '부산',
     description:
       '동해바다의 해안풍광을 바라보며 디지털 경험을 하세요.',
     numViews: 0,
@@ -870,8 +870,8 @@ export const busanPostsData = [
   },
   {
     title: '부산정관',
-    slug: '부산정관',
-    category: '국내',
+    slug: 'busan-80',
+    category: '부산',
     description:
       '스타벅스와 함께 커피 한 잔과 맛있는 푸드 의 여유를 즐겨보세요!',
     numViews: 0,
@@ -881,8 +881,8 @@ export const busanPostsData = [
   },
   {
     title: '기장일광DT',
-    slug: '기장일광DT',
-    category: '국내',
+    slug: 'busan-81',
+    category: '부산',
     description:
       '도심속의 휴식처를 제공해 드리는 스타벅스 기장일광DT점 입니다.',
     numViews: 0,
@@ -892,8 +892,8 @@ export const busanPostsData = [
   },
   {
     title: '부산P.아울렛',
-    slug: '부산P.아울렛',
-    category: '국내',
+    slug: 'busan-82',
+    category: '부산',
     description:
       '쇼핑과 여가속에서의 달콤한휴식을 전하는 부산P.아울렛점 입니다.',
     numViews: 0,
@@ -903,8 +903,8 @@ export const busanPostsData = [
   },
   {
     title: '동부산테마파크',
-    slug: '동부산테마파크',
-    category: '국내',
+    slug: 'busan-83',
+    category: '부산',
     description:
       '놀이와 문화, 여가가 어우러진 즐거움 가득한 동부산테마파크점 입니다.',
     numViews: 0,
@@ -914,8 +914,8 @@ export const busanPostsData = [
   },
   {
     title: '정관신도시DT',
-    slug: '정관신도시DT',
-    category: '국내',
+    slug: 'busan-84',
+    category: '부산',
     description:
       '자연의 싱그러움과 커피향이 함께하는 정관신도시DT점입니다.',
     numViews: 0,
@@ -925,8 +925,8 @@ export const busanPostsData = [
   },
   {
     title: '기장임랑원',
-    slug: '기장임랑원',
-    category: '국내',
+    slug: 'busan-85',
+    category: '부산',
     description:
       '특별한 푸드와 대형베어리스타가 맞이하는 비밀의 정원 기장임랑원점 입니다.',
     numViews: 0,
@@ -936,8 +936,8 @@ export const busanPostsData = [
   },
   {
     title: '광안수변공원',
-    slug: '광안수변공원',
-    category: '국내',
+    slug: 'busan-86',
+    category: '부산',
     description:
       '아름다운 광안리 바닷가 와 광안대교를 바라보면서  커피 한 잔의 여유와 편안함을 느껴보세요',
     numViews: 0,
@@ -947,8 +947,8 @@ export const busanPostsData = [
   },
   {
     title: '수영역',
-    slug: '수영역',
-    category: '국내',
+    slug: 'busan-87',
+    category: '부산',
     description:
       '부산최대의 교통의 요충지인 수영역점에서 편안한 휴식과 기분좋은 쾌적함을 느껴보세요.',
     numViews: 0,
@@ -958,8 +958,8 @@ export const busanPostsData = [
   },
   {
     title: '금련산역',
-    slug: '금련산역',
-    category: '국내',
+    slug: 'busan-88',
+    category: '부산',
     description:
       '금련산의 정기가 가득하며 부산서면과 남부를 연결하는 최고 요충지 금련산역점에서 작은 행복을 누리세요.',
     numViews: 0,
@@ -969,8 +969,8 @@ export const busanPostsData = [
   },
   {
     title: '광안비치',
-    slug: '광안비치',
-    category: '국내',
+    slug: 'busan-89',
+    category: '부산',
     description:
       '아름다운 광안리 바닷가에서 스타벅스와 함께 소중한 추억을 간직하세요',
     numViews: 0,
@@ -980,8 +980,8 @@ export const busanPostsData = [
   },
   {
     title: '수영망미DT',
-    slug: '수영망미DT',
-    category: '국내',
+    slug: 'busan-90',
+    category: '부산',
     description:
       '아늑한 커피하우스와 스타벅스 디지털 경험 및 Drive Thru를 함께 즐기세요.',
     numViews: 0,
@@ -991,8 +991,8 @@ export const busanPostsData = [
   },
   {
     title: '광안리',
-    slug: '광안리',
-    category: '국내',
+    slug: 'busan-91',
+    category: '부산',
     description:
       '세계 제일의 전망을 자랑하는 스타벅스 광안리점에서 일상의 스트레스를 날려버리세요~',
     numViews: 0,
@@ -1002,8 +1002,8 @@ export const busanPostsData = [
   },
   {
     title: '남천',
-    slug: '남천',
-    category: '국내',
+    slug: 'busan-92',
+    category: '부산',
     description:
       '수려한 광안리 바다 경치와 보석처럼 빛나는 광안대교 전경을 한눈에 즐길 수 있는 곳, 스타벅스 남천점입니다.',
     numViews: 0,
@@ -1013,8 +1013,8 @@ export const busanPostsData = [
   },
   {
     title: '남천더샵',
-    slug: '남천더샵',
-    category: '국내',
+    slug: 'busan-93',
+    category: '부산',
     description:
       '바쁜 일상 속 맛있는 커피와 제3의 공간이 주는 편안함이 공존하는 스타벅스 남천더샵점 입니다.',
     numViews: 0,
@@ -1024,8 +1024,8 @@ export const busanPostsData = [
   },
   {
     title: '밀락더마켓',
-    slug: '밀락더마켓',
-    category: '국내',
+    slug: 'busan-94',
+    category: '부산',
     description:
       '광안리 핫플레이스 복합문화공간 명소에 위치한 스타벅스 밀락더마켓점 입니다.',
     numViews: 0,
@@ -1035,8 +1035,8 @@ export const busanPostsData = [
   },
   {
     title: '센텀수영DT',
-    slug: '센텀수영DT',
-    category: '국내',
+    slug: 'busan-95',
+    category: '부산',
     description:
       '아름다운 수영강과 멋진 시티뷰를 조망하면서 커피한잔의 여유로움을 만끼할수있는 센텀수영DT점입니다.',
     numViews: 0,
@@ -1046,8 +1046,8 @@ export const busanPostsData = [
   },
   {
     title: '스타필드명지',
-    slug: '스타필드명지',
-    category: '국내',
+    slug: 'busan-96',
+    category: '부산',
     description:
       '도심 속의 힐링 공간으로 친구, 가족, 연인과 스타필드명지점에서 행복한 추억을 만드세요.',
     numViews: 0,
@@ -1057,8 +1057,8 @@ export const busanPostsData = [
   },
   {
     title: '명지강변DT',
-    slug: '명지강변DT',
-    category: '국내',
+    slug: 'busan-97',
+    category: '부산',
     description:
       'Drive Thru 와 도심 속 여유로운 공간 명지강변DT점 입니다',
     numViews: 0,
@@ -1068,8 +1068,8 @@ export const busanPostsData = [
   },
   {
     title: '명지국제신도시',
-    slug: '명지국제신도시',
-    category: '국내',
+    slug: 'busan-98',
+    category: '부산',
     description:
       '향기로운 한 잔의 커피와 함께하는 도심 속 휴식을 선사합니다.',
     numViews: 0,
@@ -1079,8 +1079,8 @@ export const busanPostsData = [
   },
   {
     title: '명지오션시티',
-    slug: '명지오션시티',
-    category: '국내',
+    slug: 'busan-99',
+    category: '부산',
     description:
       '한 잔, 한 잔의 커피마다 행운을 함께 담아드리는 명지오션시티점입니다.',
     numViews: 0,
@@ -1090,8 +1090,8 @@ export const busanPostsData = [
   },
   {
     title: '강서녹산DT',
-    slug: '강서녹산DT',
-    category: '국내',
+    slug: 'busan-100',
+    category: '부산',
     description:
       '바쁜 일상 속에서 편리한 Drive Thru와 커피 한 잔의 여유를 즐기실 수 있는 스타벅스 강서녹산DT점입니다.',
     numViews: 0,
@@ -1101,8 +1101,8 @@ export const busanPostsData = [
   },
   {
     title: '명지퍼스트월드',
-    slug: '명지퍼스트월드',
-    category: '국내',
+    slug: 'busan-101',
+    category: '부산',
     description:
       '떠오르는 동남권 메가시티 스타벅스 명지퍼스트월드점 입니다.',
     numViews: 0,
@@ -1112,8 +1112,8 @@ export const busanPostsData = [
   },
   {
     title: '동래역',
-    slug: '동래역',
-    category: '국내',
+    slug: 'busan-102',
+    category: '부산',
     description:
       '편안하고 기분좋은 경험을 즐길 수 있는 스타벅스 동래역점 입니다.',
     numViews: 0,
@@ -1123,8 +1123,8 @@ export const busanPostsData = [
   },
   {
     title: '명륜역',
-    slug: '명륜역',
-    category: '국내',
+    slug: 'busan-103',
+    category: '부산',
     description:
       '향기로운 커피 한잔의 여유, 일상 속의 편안한 휴식을 즐길 수 있는 스타벅스 명륜역점 입니다.',
     numViews: 0,
@@ -1134,8 +1134,8 @@ export const busanPostsData = [
   },
   {
     title: '사직구장',
-    slug: '사직구장',
-    category: '국내',
+    slug: 'busan-104',
+    category: '부산',
     description:
       '사직구장의 랜드마크, WALK THRU 매장으로 새로운 스타벅스 문화를 경험하세요.',
     numViews: 0,
@@ -1145,8 +1145,8 @@ export const busanPostsData = [
   },
   {
     title: '부산안락DT',
-    slug: '부산안락DT',
-    category: '국내',
+    slug: 'busan-105',
+    category: '부산',
     description:
       '디지털감동서비스 Drive Thru와 도심 속 여유로운 공간 부산안락DT점입니다.',
     numViews: 0,
@@ -1156,8 +1156,8 @@ export const busanPostsData = [
   },
   {
     title: '동래미남DT',
-    slug: '동래미남DT',
-    category: '국내',
+    slug: 'busan-106',
+    category: '부산',
     description:
       '도심 속 커피 한잔의 여유를 스타벅스 동래미남DT점과 함께 즐기세요.',
     numViews: 0,
@@ -1167,8 +1167,8 @@ export const busanPostsData = [
   },
   {
     title: '부산사직',
-    slug: '부산사직',
-    category: '국내',
+    slug: 'busan-107',
+    category: '부산',
     description:
       '부산 동래구의 첫번째 스타벅스 매장! 새로운 랜드마크인 부산사직점입니다.',
     numViews: 0,
@@ -1178,8 +1178,8 @@ export const busanPostsData = [
   },
   {
     title: '부산온천장역',
-    slug: '부산온천장역',
-    category: '국내',
+    slug: 'busan-108',
+    category: '부산',
     description:
       '향긋한 꽃내음과 시원한 물줄기의 온천천을 느낄 수 있는 부산온천장역점입니다.',
     numViews: 0,
@@ -1189,8 +1189,8 @@ export const busanPostsData = [
   },
   {
     title: '부산동래',
-    slug: '부산동래',
-    category: '국내',
+    slug: 'busan-109',
+    category: '부산',
     description:
       '소소한 행복과 편안한 휴식이 있는 스타벅스 부산동래점입니다. 스타벅스의 특별한 경험을 느껴보세요.',
     numViews: 0,
@@ -1200,8 +1200,8 @@ export const busanPostsData = [
   },
   {
     title: '동래허심청',
-    slug: '동래허심청',
-    category: '국내',
+    slug: 'busan-110',
+    category: '부산',
     description:
       '허심청 온천에 위치한 도심속의 힐링의 공간 스타벅스 동래허심청점 입니다.',
     numViews: 0,
@@ -1211,8 +1211,8 @@ export const busanPostsData = [
   },
   {
     title: '부산미남역',
-    slug: '부산미남역',
-    category: '국내',
+    slug: 'busan-111',
+    category: '부산',
     description:
       '따뜻한 커피 한 잔과 함께 일상 속 휴식을 제공하는 스타벅스 부산미남역점 입니다.',
     numViews: 0,
@@ -1222,8 +1222,8 @@ export const busanPostsData = [
   },
   {
     title: '부산송도해수욕장',
-    slug: '부산송도해수욕장',
-    category: '국내',
+    slug: 'busan-112',
+    category: '부산',
     description:
       '소나무가 우거진 부산송도해수욕장점에서 푸른 바다의 정취와 함께 향긋한 커피한잔의 여유를 즐기세요',
     numViews: 0,
@@ -1233,8 +1233,8 @@ export const busanPostsData = [
   },
   {
     title: '부민사거리',
-    slug: '부민사거리',
-    category: '국내',
+    slug: 'busan-113',
+    category: '부산',
     description:
       '근현대사가 고스란히 남아있는 부민사거리점에서 역사와 젊음이 어우러진 특별한 경험을 해보세요.',
     numViews: 0,
@@ -1244,8 +1244,8 @@ export const busanPostsData = [
   },
   {
     title: '부산동대신역',
-    slug: '부산동대신역',
-    category: '국내',
+    slug: 'busan-114',
+    category: '부산',
     description:
       '따스한 햇살과 가로수길의 정취로 삶의 여유로움이 느껴지는 부산동대신역점입니다.',
     numViews: 0,
@@ -1255,8 +1255,8 @@ export const busanPostsData = [
   },
   {
     title: '동아대병원',
-    slug: '동아대병원',
-    category: '국내',
+    slug: 'busan-115',
+    category: '부산',
     description:
       '커피 한잔의 힐링으로 아늑한 쉽터가 되어 드리는 동아대병원점입니다.',
     numViews: 0,
@@ -1266,8 +1266,8 @@ export const busanPostsData = [
   },
   {
     title: '해운대동백',
-    slug: '해운대동백',
-    category: '국내',
+    slug: 'busan-116',
+    category: '부산',
     description:
       '해운대 동백점(구,해운대R)에서 따사로운 햇살과 함께 여유롭게 커피를 즐겨보세요',
     numViews: 0,
@@ -1277,8 +1277,8 @@ export const busanPostsData = [
   },
   {
     title: '수영강변DT',
-    slug: '수영강변DT',
-    category: '국내',
+    slug: 'busan-117',
+    category: '부산',
     description:
       'Drive Thru 와 도심 속 여유로운 공간 수영강변DT점 입니다.',
     numViews: 0,
@@ -1288,8 +1288,8 @@ export const busanPostsData = [
   },
   {
     title: '센텀파크',
-    slug: '센텀파크',
-    category: '국내',
+    slug: 'busan-118',
+    category: '부산',
     description:
       '맛있는 커피와 여유로움 그리고 편안함이 공존하는 공간 센텀파크점입니다.',
     numViews: 0,
@@ -1299,8 +1299,8 @@ export const busanPostsData = [
   },
   {
     title: '해운대역',
-    slug: '해운대역',
-    category: '국내',
+    slug: 'busan-119',
+    category: '부산',
     description:
       '안녕하세요. 해운대 바다를 보기 전, 맛있는 커피 한잔 어떠신가요? 감성있는  스타벅스 해운대역점 입니다.',
     numViews: 0,
@@ -1310,8 +1310,8 @@ export const busanPostsData = [
   },
   {
     title: '부산재송DT',
-    slug: '부산재송DT',
-    category: '국내',
+    slug: 'busan-120',
+    category: '부산',
     description:
       '아늑한 커피하우스와 스타벅스 디지털 경험 및 Drive Thru를 함께 즐기세요',
     numViews: 0,
@@ -1321,8 +1321,8 @@ export const busanPostsData = [
   },
   {
     title: '해운대',
-    slug: '해운대',
-    category: '국내',
+    slug: 'busan-121',
+    category: '부산',
     description:
       '해운대 바닷가의 새로운 명소 walk Thru점에서 새로운 스타벅스 문화를 경험하세요',
     numViews: 0,
@@ -1332,8 +1332,8 @@ export const busanPostsData = [
   },
   {
     title: '센텀로',
-    slug: '센텀로',
-    category: '국내',
+    slug: 'busan-122',
+    category: '부산',
     description:
       '센텀의 중심지. 스타벅스 센텀로점에서 스타벅스만의 특별한 경험을 전해드립니다.',
     numViews: 0,
@@ -1343,8 +1343,8 @@ export const busanPostsData = [
   },
   {
     title: '센텀신세계B1',
-    slug: '센텀신세계B1',
-    category: '국내',
+    slug: 'busan-123',
+    category: '부산',
     description:
       '신세계 백화점 B1의 프리미엄 공간에 위치한 라운드 매장에서 쇼핑의 여유로움을 느껴보세요.',
     numViews: 0,
@@ -1354,8 +1354,8 @@ export const busanPostsData = [
   },
   {
     title: '해운대달맞이DT',
-    slug: '해운대달맞이DT',
-    category: '국내',
+    slug: 'busan-124',
+    category: '부산',
     description:
       '부산의 명소 해운대의 첫 Drive Thru 매장에서  향기로운 커피 한잔의 여유를 즐기세요 .',
     numViews: 0,
@@ -1365,8 +1365,8 @@ export const busanPostsData = [
   },
   {
     title: '센텀그린타워',
-    slug: '센텀그린타워',
-    category: '국내',
+    slug: 'busan-125',
+    category: '부산',
     description:
       '밝은 햇살처럼 환한 미소로 편안함과 행복을 드리는 센텀그린타워점입니다. 가족 같은 편안함과 여유를 즐겨 보세요.',
     numViews: 0,
@@ -1376,8 +1376,8 @@ export const busanPostsData = [
   },
   {
     title: '부산송정비치',
-    slug: '부산송정비치',
-    category: '국내',
+    slug: 'busan-126',
+    category: '부산',
     description:
       '자연의 아름다움을 그대로 간직한 오션뷰와 함께 커피를 즐길수 있는 스타벅스 부산송정비치점입니다.',
     numViews: 0,
@@ -1387,8 +1387,8 @@ export const busanPostsData = [
   },
   {
     title: '장산역',
-    slug: '장산역',
-    category: '국내',
+    slug: 'busan-127',
+    category: '부산',
     description:
       '커피 한잔에 정성과 열정을 담고, 미소로 장식하여 전해 드리겠습니다.해운대 신시가지의 랜드마크, 장산역점 입니다.',
     numViews: 0,
@@ -1398,8 +1398,8 @@ export const busanPostsData = [
   },
   {
     title: '하버타운',
-    slug: '하버타운',
-    category: '국내',
+    slug: 'busan-128',
+    category: '부산',
     description:
       '3면이 유리로 되어 있어 아름다운 해운대 바다를 보며 커피 한잔의 여유를 즐길 수 있는 이국적인 공간, 하버타운점입니다.',
     numViews: 0,
@@ -1409,8 +1409,8 @@ export const busanPostsData = [
   },
   {
     title: '벡스코',
-    slug: '벡스코',
-    category: '국내',
+    slug: 'busan-129',
+    category: '부산',
     description:
       '향기로운 스타벅스 커피와 함께 벡스코의 전시회 및 공연을 즐기세요.',
     numViews: 0,
@@ -1420,8 +1420,8 @@ export const busanPostsData = [
   },
   {
     title: '팔레드시즈',
-    slug: '팔레드시즈',
-    category: '국내',
+    slug: 'busan-130',
+    category: '부산',
     description:
       '해운대 바다의 아름다움을 한 눈에 담으며, 커피 한잔의 여유를 즐길 수 있는 휴식처, 팔래드시즈점입니다.',
     numViews: 0,
@@ -1431,8 +1431,8 @@ export const busanPostsData = [
   },
   {
     title: '제니스스퀘어',
-    slug: '제니스스퀘어',
-    category: '국내',
+    slug: 'busan-131',
+    category: '부산',
     description:
       '마린시티내 고급 주거 공간의 중심, 품격 있는 당신만의 여유를 즐길수 있는',
     numViews: 0,
@@ -1442,8 +1442,8 @@ export const busanPostsData = [
   },
   {
     title: '마린시티아이파크',
-    slug: '마린시티아이파크',
-    category: '국내',
+    slug: 'busan-132',
+    category: '부산',
     description:
       '해운대 마린시티의 스타! 스타벅스 마린시티아이파크점에서 낭만과 여유를 느껴보세요!',
     numViews: 0,
@@ -1453,8 +1453,8 @@ export const busanPostsData = [
   },
   {
     title: '해운대달맞이',
-    slug: '해운대달맞이',
-    category: '국내',
+    slug: 'busan-133',
+    category: '부산',
     description:
       '딜리버스운영을 함께하는 달맞이길의 다채로운 절경과 사계절의 아름다움을 느껴보세요.',
     numViews: 0,
@@ -1464,8 +1464,8 @@ export const busanPostsData = [
   },
   {
     title: '해운대이마트',
-    slug: '해운대이마트',
-    category: '국내',
+    slug: 'busan-134',
+    category: '부산',
     description:
       '즐거운 쇼핑과 함께하는 달콤한 여유를 해운대 이마트점에서 느껴보세요!',
     numViews: 0,
@@ -1475,8 +1475,8 @@ export const busanPostsData = [
   },
   {
     title: '센텀드림월드',
-    slug: '센텀드림월드',
-    category: '국내',
+    slug: 'busan-135',
+    category: '부산',
     description:
       '지친 오피스 고객님을 위한 꿈동산, 센텀드림월드로 오세요!',
     numViews: 0,
@@ -1486,8 +1486,8 @@ export const busanPostsData = [
   },
   {
     title: '센텀KNN',
-    slug: '센텀KNN',
-    category: '국내',
+    slug: 'busan-136',
+    category: '부산',
     description:
       '센텀시티 오피스 고객들의 안락한 휴식처, 센텀KNN점으로 오세요!',
     numViews: 0,
@@ -1497,8 +1497,8 @@ export const busanPostsData = [
   },
   {
     title: '월드마크센텀',
-    slug: '월드마크센텀',
-    category: '국내',
+    slug: 'busan-137',
+    category: '부산',
     description:
       '럭셔리하고 세련된 인테리어와 편리한 주상복합 단지, 즐거움의 원천인 월드 마크 센텀점에서 최상의 서비스와 커피를 만끽하세요!',
     numViews: 0,
@@ -1508,8 +1508,8 @@ export const busanPostsData = [
   },
   {
     title: '엘시티',
-    slug: '엘시티',
-    category: '국내',
+    slug: 'busan-138',
+    category: '부산',
     description:
       '아름다운 해운대 바다뷰와 함께 소중한 추억을 만들 수 있는 스타벅스 엘시티점입니다.',
     numViews: 0,
@@ -1519,8 +1519,8 @@ export const busanPostsData = [
   },
   {
     title: '해운대NC',
-    slug: '해운대NC',
-    category: '국내',
+    slug: 'busan-139',
+    category: '부산',
     description:
       '즐거운 쇼핑과 여유로운 공간 해운대NC점 입니다.',
     numViews: 0,
@@ -1530,8 +1530,8 @@ export const busanPostsData = [
   },
   {
     title: '해운대좌동',
-    slug: '해운대좌동',
-    category: '국내',
+    slug: 'busan-140',
+    category: '부산',
     description:
       '여유로운 일상의 편안한 분위기와 기분좋은 커피한잔을 드리겠습니다.',
     numViews: 0,
@@ -1541,8 +1541,8 @@ export const busanPostsData = [
   },
   {
     title: '해운대 엑스더스카이',
-    slug: '해운대 엑스더스카이',
-    category: '국내',
+    slug: 'busan-141',
+    category: '부산',
     description:
       '하늘과 바다과 어우어진 가장 높은 스타벅스 해운대엑스더스카이점입니다.',
     numViews: 0,
@@ -1552,8 +1552,8 @@ export const busanPostsData = [
   },
   {
     title: '부산성모안과병원',
-    slug: '부산성모안과병원',
-    category: '국내',
+    slug: 'busan-142',
+    category: '부산',
     description:
       '커피한잔의 휴식으로 마음의 위로와 행복함을 드리는 부산성모안과병원점입니다.',
     numViews: 0,
@@ -1563,8 +1563,8 @@ export const busanPostsData = [
   },
   {
     title: '센텀신세계3F',
-    slug: '센텀신세계3F',
-    category: '국내',
+    slug: 'busan-143',
+    category: '부산',
     description:
       '커피와 함께 쇼핑의 여유로움을 즐길 수 있는 스타벅스 센텀신세계3F점 입니다.',
     numViews: 0,
@@ -1574,8 +1574,8 @@ export const busanPostsData = [
   },
   {
     title: '해운대중동역',
-    slug: '해운대중동역',
-    category: '국내',
+    slug: 'busan-144',
+    category: '부산',
     description:
       '해운대 중동의 아늑하고 따뜻한 매장에서 특별한 스타벅스 경험을 드립니다.',
     numViews: 0,
@@ -1585,8 +1585,8 @@ export const busanPostsData = [
   },
   {
     title: '센텀몰1F',
-    slug: '센텀몰1F',
-    category: '국내',
+    slug: 'busan-145',
+    category: '부산',
     description:
       '커피와 함께 쇼핑의 여유로움을 즐길 수 있는 스타벅스 센텀몰1F점 입니다.',
     numViews: 0,
@@ -1596,8 +1596,8 @@ export const busanPostsData = [
   },
   {
     title: '그랜드조선 부산',
-    slug: '그랜드조선 부산',
-    category: '국내',
+    slug: 'busan-146',
+    category: '부산',
     description:
       '아름다운 해운대 바다와 여유로운 커피를 즐실수 있는 고품격 스타벅스 그랜드조선 부산점입니다.',
     numViews: 0,

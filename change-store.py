@@ -3,11 +3,15 @@ import os
 import re
 from datetime import datetime
 
+# 변수 설정
+REGION = "jeolnam" 
+REGION_KR = "전남"  
+
 # 입력 파일 경로
-input_file = "details/busan/busan_2025-07-09.json"
+input_file = f"details/{REGION}/{REGION}_2025-07-10.json"
 
 # 출력 파일 경로 (TypeScript, stores 폴더)
-output_file = "stores/busanStoresData.ts"
+output_file = f"stores/{REGION}StoresData.ts"
 
 def clean_string(text):
     """문자열에서 작은따옴표와 줄바꿈을 이스케이프 처리"""
@@ -132,12 +136,14 @@ def parse_services_and_facilities(services, facilities):
 
 def generate_tags(name, address, services, facilities):
     """매장명과 주소에서 태그 생성"""
-    tags = ['부산']
+    tags = [REGION_KR]
     
-    # 구 이름 추출
-    gu_match = re.search(r'부산광역시\s*(\w+구)', address)
-    if gu_match:
-        tags.append(gu_match.group(1))
+    # 구 이름 추출 (부산의 경우)
+    if REGION == "busan":
+        gu_match = re.search(r'부산광역시\s*(\w+구)', address)
+        if gu_match:
+            tags.append(gu_match.group(1))
+    # 다른 지역의 경우 해당 지역의 구/군 추출 로직 추가 가능
     
     # DT 여부 확인
     if 'DT' in name:
@@ -169,10 +175,10 @@ def transform_store_data(store, index):
             phone = phone_match.group(1)
     
     return {
-        "storeId": f"busan-{index + 1:02d}",
+        "storeId": f"{REGION}-{index + 1:02d}",
         "name": clean_string(store.get("name", "")),
         "address": clean_string(store.get("address", "")),
-        "location": "부산",
+        "location": REGION_KR,
         "parking": clean_string(parking_info),
         "directions": clean_string(store.get("directions", "")),
         "since": "",
@@ -211,7 +217,7 @@ def main():
                 continue
         
         # TypeScript 파일로 저장
-        ts_content = "export const busanStoresData = [\n"
+        ts_content = f"export const {REGION}StoresData = [\n"
         
         for i, store in enumerate(transformed_stores):
             ts_content += "    {\n"

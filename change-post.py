@@ -2,11 +2,15 @@ import json
 import os
 from datetime import datetime
 
+# 변수 설정
+REGION = "jeolnam" 
+REGION_KR = "전남"  
+
 # 입력 파일 경로
-input_file = "details/busan/busan_2025-07-09.json"
+input_file = f"details/{REGION}/{REGION}_2025-07-10.json"
 
 # 출력 파일 경로 (TypeScript, posts 폴더)
-output_file = "posts/busanPostsData.ts"
+output_file = f"posts/{REGION}PostsData.ts"
 
 def slugify(text):
     # 더 이상 사용하지 않음
@@ -20,12 +24,12 @@ def transform_store_data(store, index):
     """개별 매장 데이터를 원하는 형식으로 변환"""
     return {
         "title": store.get("name", ""),
-        "slug": store.get("name", ""),
-        "category": "국내",
+        "slug": f"{REGION}-{index + 1:02d}",
+        "category": REGION_KR,
         "description": clean_description(store.get("description", "")),
         "numViews": 0,
         "numLikes": 0,
-        "storeId": f"busan-{index + 1:02d}",
+        "storeId": f"{REGION}-{index + 1:02d}",
         "isPublished": True
     }
 
@@ -53,7 +57,7 @@ def main():
             print(f"변환 완료: {store.get('name', 'Unknown')} -> {transformed_store['slug']}", flush=True)
         
         # TypeScript 파일로 저장
-        ts_content = "export const busanPostsData = [\n"
+        ts_content = f"export const {REGION}PostsData = [\n"
         
         for i, store in enumerate(transformed_stores):
             ts_content += "  {\n"
